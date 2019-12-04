@@ -14,7 +14,7 @@ const App = createBottomTabNavigator(
 			screen: HomeScreen,
 			navigationOptions: {
 				tabBarIcon: ({ focused }) => {
-					const iconFocused = focused ? "#7444C0" : "#363636";
+					const iconFocused = focused ? "#7444C0" : "#fff";
 					return (
 						<Text style={[styles.iconMenu, { color: iconFocused }]}>
 							<Icon name="explore" />
@@ -27,7 +27,7 @@ const App = createBottomTabNavigator(
 			screen: MatchesScreen,
 			navigationOptions: {
 				tabBarIcon: ({ focused }) => {
-					const iconFocused = focused ? "#7444C0" : "#363636";
+					const iconFocused = focused ? "#7444C0" : "#fff";
 					return (
 						<Text style={[styles.iconMenu, { color: iconFocused }]}>
 							<Icon name="heart" />
@@ -40,7 +40,7 @@ const App = createBottomTabNavigator(
 			screen: MessagesScreen,
 			navigationOptions: {
 				tabBarIcon: ({ focused }) => {
-					const iconFocused = focused ? "#7444C0" : "#363636";
+					const iconFocused = focused ? "#7444C0" : "#fff";
 					return (
 						<Text style={[styles.iconMenu, { color: iconFocused }]}>
 							<Icon name="chat" />
@@ -53,7 +53,7 @@ const App = createBottomTabNavigator(
 			screen: ProfileScreen,
 			navigationOptions: {
 				tabBarIcon: ({ focused }) => {
-					const iconFocused = focused ? "#7444C0" : "#363636";
+					const iconFocused = focused ? "#7444C0" : "#fff";
 					return (
 						<Text style={[styles.iconMenu, { color: iconFocused }]}>
 							<Icon name="user" />
@@ -66,21 +66,21 @@ const App = createBottomTabNavigator(
 	{
 		tabBarOptions: {
 			activeTintColor: "#7444C0",
-			inactiveTintColor: "#363636",
+			inactiveTintColor: "#fff",
 			labelStyle: {
 				fontSize: 14,
 				textTransform: "uppercase",
 				paddingTop: 10
 			},
 			style: {
-				backgroundColor: "#FFF",
+				backgroundColor: "#222",
 				borderTopWidth: 0,
 				paddingVertical: 30,
-				height: 60,
-				marginBottom: 0,
+				height: 90,
+				marginTop: 0,
 				shadowOpacity: 0.05,
 				shadowRadius: 10,
-				shadowColor: "#000",
+				shadowColor: "#fff",
 				shadowOffset: { height: 0, width: 0 }
 			}
 		}

@@ -18,7 +18,7 @@ const FLASH_ACTIONS = "#5028D7";
 const ICON_FONT = "tinderclone";
 
 const DIMENSION_WIDTH = Dimensions.get("window").width;
-const DIMENSION_HEIGHT = Dimensions.get("window").height;
+const DIMENSION_HEIGHT = Dimensions.get("window").height - 30;
 
 export default StyleSheet.create({
 	// COMPONENT - CARD ITEM
@@ -27,6 +27,7 @@ export default StyleSheet.create({
 		borderRadius: 8,
 		alignItems: "center",
 		margin: 10,
+		marginBottom: 25,
 		shadowOpacity: 0.05,
 		shadowRadius: 10,
 		shadowColor: BLACK,
@@ -45,6 +46,7 @@ export default StyleSheet.create({
 	},
 	descriptionCardItem: {
 		color: GRAY,
+		fontSize: 16,
 		textAlign: "center"
 	},
 	status: {

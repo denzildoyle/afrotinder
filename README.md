@@ -78,6 +78,13 @@ react-native run-ios
 react-native run-android
 ```
 
+Then execute case necessary command to run reload page e debugger app:
+
+```
+react-native start
+```
+
+In case error with androidx, use `npx jestify` to fix
 
 ## Props
 
