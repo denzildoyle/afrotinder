@@ -16,10 +16,10 @@ const Home = () => {
         style={styles.bg}
       >
         <View style={styles.containerHome}>
-          {/* <View style={styles.top}> */}
-            {/* <City /> */}
+          <View style={styles.top}>
+            <City />
             {/* <Filters /> */}
-          {/* </View> */}
+          </View>
 
           <CardStack
             loop={true}

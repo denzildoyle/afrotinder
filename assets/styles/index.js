@@ -18,7 +18,7 @@ const FLASH_ACTIONS = "#5028D7";
 const ICON_FONT = "tinderclone";
 
 const DIMENSION_WIDTH = Dimensions.get("window").width;
-const DIMENSION_HEIGHT = Dimensions.get("window").height - 30;
+const DIMENSION_HEIGHT = Dimensions.get("window").height;
 
 export default StyleSheet.create({
 	// COMPONENT - CARD ITEM
@@ -242,7 +242,7 @@ export default StyleSheet.create({
 		height: DIMENSION_HEIGHT
 	},
 	top: {
-		paddingTop: 50,
+		paddingTop: 20,
 		marginHorizontal: 10,
 		flexDirection: "row",
 		justifyContent: "space-between",
